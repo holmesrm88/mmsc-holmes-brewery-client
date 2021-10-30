@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by jt on 2019-08-08.
+ * Apache
+ * Important to set up if you are going to have a lot of RESTful web service traffic.  Can greatly improve performance.
  */
 @Component
 public class BlockingRestTemplateCustomizer implements RestTemplateCustomizer {
